@@ -11,13 +11,13 @@ import {
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyApFpKy77c-0bBNbKAQNTiC0Fn5Rs9QbQQ",
-    authDomain: "online-recipe-8d264.firebaseapp.com",
-    projectId: "online-recipe-8d264",
-    storageBucket: "online-recipe-8d264.appspot.com",
-    messagingSenderId: "167679680151",
-    appId: "1:167679680151:web:0e35233e4dc845c64753d2",
-    measurementId: "G-2LP809RPV7"
+    apiKey: "----------",
+    authDomain: "----------",
+    projectId: "---------------",
+    storageBucket: "----------",
+    messagingSenderId: "--------",
+    appId: "---------",
+    measurementId: "--------"
   };
 
 // Initialize Firebase
