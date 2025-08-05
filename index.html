@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <style> .list { margin-top: 20px; }
+        .card {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    form input {
+        margin-bottom: 10px;
+    }
+
+    form button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    form button:hover {
+        background-color: #0056b3;
+    }
+
+    .signin {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .signin:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+  <div class="recipe"></div>
+    <form class="add">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" required>
+        <label for="Ingredient">Ingredient:</label>
+        <input type="text" name="Ingredient" required>
+        <label for="Method">Method</label>
+        <input type="text" name="Method" required>
+        <button>add a new recipe</button>
+        </form>
+    <script type = "module" src="bundle.js"></script>
+</body>
+
+</html>
